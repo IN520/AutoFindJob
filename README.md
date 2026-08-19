@@ -5,10 +5,13 @@
 
 这是一个 **AI Agent Skill**（`SKILL.md`），可被 Claude Code、Cursor 等 AI 编码代理加载，
 让 Agent 在你提出「帮我找央国企校招岗位」时自动调用本脚本。
+<img width="1459" height="749" alt="截屏2026-08-19 23 27 13" src="https://github.com/user-attachments/assets/fb96b17b-e9f5-4cf7-bff2-e8ac63073ec8" />
+
 
 ## 作为 Skill 使用
 
 - **Claude Code**：克隆后放到 `~/.claude/skills/`（或项目 `.claude/skills/`），对话中说「抓一份央国企校招追踪表」即可。
+- **各大主流AI**：仅需把该项目地址/zip文件告诉AI，并说安装并运行该skill即可。
 - **Cursor / 其他 Agent**：直接读取本目录的 `SKILL.md` 与 `AGENTS.md`。
 - **独立使用**：无需任何 Agent，直接运行脚本（见下）。
 
