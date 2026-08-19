@@ -1,0 +1,13 @@
+# 运行产物（由 tracker.py 生成）
+jobs.db
+jobs.csv
+jobs.json
+jobs.html
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 系统
+.DS_Store
